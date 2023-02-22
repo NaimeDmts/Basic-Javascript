@@ -1,4 +1,4 @@
-let url = "https://www.sadikturan.com/";
+let url = "https://www.sadikturan.com";
 let kursAdi = "Komple Web Geliştirme Kursu";
 
 // 1- url kaç karakterlidir?
@@ -10,13 +10,13 @@ console.log(url_uzunluk);
 // 2- kursAdi kaç kelimeden oluşmaktadır?
 
 let kursAdi_kelime;
-kursAdi_kelime = kursAdi.split(" ");
+kursAdi_kelime = kursAdi.split(" ").length;
 console.log(kursAdi_kelime);
 
 // 3- url https ile mi başlıyor?
 
 let url_https;
-url_https = url.slice(0,5)== "https" ? "true":"false";
+url_https = url.startsWith("https");
 console.log(url_https);
 
 // 4- kursAdi içerisinde eğitimi kelimesi var mı?
@@ -29,9 +29,9 @@ console.log(kursAdi_Egitimi);
     // https://www.sadikturan.com/komple-web-geliştirme-kursu
 
 let kursadi = kursAdi.toLowerCase();
-let yeni_kursadi = kursadi.replace(/ /g,"-");
+let yeni_kursadi = kursadi.replaceAll(" ","-").replaceAll("ş" , "s");
 console.log(yeni_kursadi);
-let birlestir = url+yeni_kursadi;
+let birlestir = `${url}/${yeni_kursadi}`;
 console.log(birlestir);
 
 
