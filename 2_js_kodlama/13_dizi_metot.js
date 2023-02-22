@@ -1,21 +1,21 @@
 let ogrenciler = ["çınar","yiğit","ada"];
 
-let sonuc = ogrenciler.length;
+let sonuc2 = ogrenciler.length;
 
 // array to string
-sonuc = ogrenciler.toString();
-sonuc = ogrenciler.join(" ");
-sonuc = ogrenciler.join("-");
+sonuc2 = ogrenciler.toString();
+sonuc2 = ogrenciler.join(" ");
+sonuc2 = ogrenciler.join("-");
 
 // eleman silme
-sonuc = ogrenciler.pop();               // son eleman silinir ve silinen eleman yazılır
-sonuc = ogrenciler.shift();
+sonuc2 = ogrenciler.pop();               // son eleman silinir ve silinen eleman yazılır
+sonuc2 = ogrenciler.shift();
 
 // eleman ekleme
-sonuc = ogrenciler.push("sena");        //dizinin sonuna eleman eklenir
-sonuc = ogrenciler.unshift("naime"); 
+sonuc2 = ogrenciler.push("sena");        //dizinin sonuna eleman eklenir
+sonuc2 = ogrenciler.unshift("naime"); 
 
-console.log(sonuc);
+console.log(sonuc2);
 console.log(ogrenciler);
 
 let markalar1 = ["mazda","toyota"];

@@ -1,31 +1,31 @@
 let kursAdi = "Komple Uygulamalı Web Geliştirme Eğitimi";
 
-let sonuc;
+let sonucu;
 
-sonuc = kursAdi.toLowerCase();
-sonuc = kursAdi.toUpperCase();
+sonucu = kursAdi.toLowerCase();
+sonucu = kursAdi.toUpperCase();
 
-sonuc = kursAdi.length;
+sonucu = kursAdi.length;
 
-sonuc = kursAdi[0];
+sonucu = kursAdi[0];
 
-sonuc = kursAdi.slice(0 , 18);
-sonuc = kursAdi.slice(7);
-sonuc = kursAdi.slice(-7);
-sonuc = kursAdi.slice(-18 , -7);
+sonucu = kursAdi.slice(0 , 18);
+sonucu = kursAdi.slice(7);
+sonucu = kursAdi.slice(-7);
+sonucu = kursAdi.slice(-18 , -7);
 
-sonuc = kursAdi.substring(0,6);
-sonuc = kursAdi.substring(6);
+sonucu = kursAdi.substring(0,6);
+sonucu = kursAdi.substring(6);
 
-sonuc = kursAdi.replace("Eğitimi","Kursu");
+sonucu= kursAdi.replace("Eğitimi","Kursu");
 
-sonuc = kursAdi.trim();
-sonuc = kursAdi.trimEnd();
-sonuc = kursAdi.trimStart();
+sonucu = kursAdi.trim();
+sonucu = kursAdi.trimEnd();
+sonucu = kursAdi.trimStart();
 
-sonuc = kursAdi.indexOf("Komple");
-sonuc = kursAdi.split(" ");
+sonucu = kursAdi.indexOf("Komple");
+sonucu = kursAdi.split(" ");
 sonuc = kursAdi.split(" ")[0];
-sonuc = kursAdi.split(" ")[4];
+sonucu = kursAdi.split(" ")[4];
 
-console.log(sonuc);
+console.log(sonucu);

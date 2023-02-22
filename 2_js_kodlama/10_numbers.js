@@ -1,33 +1,33 @@
-let sonuc;
+let sonuc1;
 
-sonuc = 10;
-sonuc = "10";
-sonuc = Number("10");
-sonuc = parseInt("10.6");
-sonuc = parseFloat("10.6");
-sonuc = parseInt("10a");
-sonuc = parseInt("a10");
+sonuc1 = 10;
+sonuc1 = "10";
+sonuc1 = Number("10");
+sonuc1 = parseInt("10.6");
+sonuc1 = parseFloat("10.6");
+sonuc1 = parseInt("10a");
+sonuc1 = parseInt("a10");
 
-sonuc = isNaN("10a");
-sonuc=isNaN("10");
+sonuc1 = isNaN("10a");
+sonuc1=isNaN("10");
 
-let sayi = 15.12345667;
-sonuc = sayi.toPrecision(5);
-sonuc = sayi.toFixed(5);
+let say = 15.12345667;
+sonuc1 = say.toPrecision(5);
+sonuc1 = say.toFixed(5);
 
-sonuc = Math.round(2.4);
-sonuc = Math.round(2.6);
-sonuc = Math.ceil(2.2);
-sonuc = Math.floor(2.6);
-sonuc = Math.sqrt(25);
-sonuc = Math.pow(2,3);
-sonuc = Math.abs(-10);
-sonuc = Math.min(4,6,8,3,9);
-sonuc = Math.max(4,6,8,3,9);
-sonuc = Math.random()*10;
-sonuc = Math.floor(Math.random()*10);
-sonuc = Math.floor(Math.random()*10) + 1;
-sonuc = Math.floor(Math.random()*100) + 50;
+sonuc1 = Math.round(2.4);
+sonuc1 = Math.round(2.6);
+sonuc1 = Math.ceil(2.2);
+sonuc1 = Math.floor(2.6);
+sonuc1 = Math.sqrt(25);
+sonuc1 = Math.pow(2,3);
+sonuc1 = Math.abs(-10);
+sonuc1 = Math.min(4,6,8,3,9);
+sonuc1 = Math.max(4,6,8,3,9);
+sonuc1= Math.random()*10;
+sonuc1 = Math.floor(Math.random()*10);
+sonuc1 = Math.floor(Math.random()*10) + 1;
+sonuc1 = Math.floor(Math.random()*100) + 50;
 
-console.log(typeof sonuc);
-console.log(sonuc);
+console.log(typeof sonuc1);
+console.log(sonuc1);

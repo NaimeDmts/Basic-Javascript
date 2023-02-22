@@ -1,10 +1,10 @@
 // yas >= 18
 // mezuniyet == "lise" ya da mezuniyet == "üniversite"
 
-let yas = 20;
+let yasi = 20;
 let mezuniyet = "Üniversite";
 
-if(yas >= 18 && (mezuniyet == "lise" || mezuniyet == "Üniversite")){
+if(yasi >= 18 && (mezuniyet == "lise" || mezuniyet == "Üniversite")){
     console.log("Ehliyet alabilir.")
 }
 else{
