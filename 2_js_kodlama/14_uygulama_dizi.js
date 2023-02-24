@@ -36,12 +36,12 @@ let ogr2 = ["Ada", "Bilgi", 2012, [60,60,70]];
 let ogr3 = ["Naime", "Damataşı", 1996, [90,90,80]];
 let simdiyil = new Date();
 
-let ogr1_yas = simdiyil.getFullYear() - ogr1[2];
-console.log(ogr1_yas);
-let ogr2_yas = simdiyil.getFullYear() - ogr2[2];
-console.log(ogr2_yas);
-let ogr3_yas = simdiyil.getFullYear() - ogr3[2];
-console.log(ogr3_yas);
+let ogr1yas = simdiyil.getFullYear() - ogr1[2];
+console.log(ogr1yas);
+let ogr2yas = simdiyil.getFullYear() - ogr2[2];
+console.log(ogr2yas);
+let ogr3yas = simdiyil.getFullYear() - ogr3[2];
+console.log(ogr3yas);
 
 let ogrenciler_not = [ogr1 ,ogr2,ogr3];
 let ogr1_orta = (ogr1[3][0]+ogr1[3][1] + ogr1[3][2])/3;
