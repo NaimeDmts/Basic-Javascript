@@ -36,10 +36,6 @@ sonuc_5 = document.querySelector("#task-list").children[1].classList.add("bg-dan
 // sonuc_5 = document.querySelector("#task-list").children[1].classList.remove("bg-danger");
 sonuc_5 = document.querySelector("#task-list").children[1].classList.contains("bg-danger");
 
-
-
-
-
 console.log(sonuc_5);
 
 
