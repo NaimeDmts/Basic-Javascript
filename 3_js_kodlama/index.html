@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const dizi = [1, 2, 2, 3, 3, 3, 5, 7, 11, 15];
+        let dizi2 =[];
+        let sonuc=0;
+        let f=1;
+        for(let i=0; i<dizi.length; i++){
+         dizi2.push(Math.pow(dizi[i],i));
+        }
+        console.log(dizi2);
+        faktoriyel(dizi2);
+        
+        function faktoriyel (a){
+            for(let i=1; i<dizi.length; i++){
+           f=f*i;
+           sonuc+=(dizi2[i-1]/f);
+        }
+        console.log(sonuc);
+        }
+        
+    </script>
+</body>
+</html>
